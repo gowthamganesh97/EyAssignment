@@ -16,7 +16,7 @@ public class Student {
 		schoolName = "Hyderbad Public School";
 	}
 	public Student() {
-		this.admissionCode = ++admissionCounter;
+		this.admissionCode = admissionCounter+100;
 	}
 	public Student(String studentName, Date birthdate) {
 		this();
