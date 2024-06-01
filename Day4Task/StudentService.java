@@ -1,9 +1,10 @@
 package com.ey.task4;
-
+import java.util.Arrays;
+import java.util.Date;
 public class StudentService {
-	public void ShowStudentDetails(Student[] s) {
-		for(int i=0;i<s.length;i++) {
-			System.out.println(s[i]);
+	public void ShowStudentDetails(Student[] student) {
+		for(Student s:students) {
+			System.out.println(s);
 		}
 	}
 
