@@ -2,18 +2,21 @@ package com.ey.task4;
 import java.util.Date;
 import java.util.*;
 public class StudentTester {
-	@SuppressWarnings("deprecation")
-	public static void main(String[] args) {
-		Student students[]=new Student[5];
-		Integer a[] = {45,42,67};
+	public static void main(String[]args) {
+		Student[] student=new Student[5];
+		Student.setAdmissionCounter(10);
+		student[0]=new Student("Gowtham1" ,new Date(103,4,6) ,new Integer[] {76,70,87});
+		student[0].setGrade();
+		student[1]=new Student("Gowtham2",new Date(100,2,17),new Integer[] {45,72,68});
+		student[1].setGrade();
+		student[2]=new Student("Gowtham3",new Date(166,4,6),new Integer[] {91,59,97});
+		student[2].setGrade();
+		student[3]=new Student("Gowtham4",new Date(103,4,6),new Integer[] {96,70,87});
+		student[3].setGrade();
+		student[4]=new Student("Gowtham5",new Date(103,4,6),new Integer[] {76,80,87});
+		student[4].setGrade();
 		
-		 students[0]=new Student("Arun1",new Date(7,8,9),a);
-		 students[0]=new Student("Arun2",new Date(8,9,0),a);
-		 students[0]=new Student("Arun2",new Date(9,10,11),a);
-		 students[0]=new Student("Arun3",new Date(10,11,12),a);
-		 students[0]=new Student("Arun4",new Date(11,12,13),a);
-		 StudentService sc=new StudentService();
-		 sc.ShowStudentDetails(students);
+		StudentService sc=new StudentService();
+		sc.displayallStudents(student);
 	}
-
 }
