@@ -1,6 +1,7 @@
 package com.ey.task4;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Arrays;
 public class StudentValidator {
 	public boolean isValidStudentName(Student student) {
 		return student.getStudentName().matches("[a-ZA-z]+");
