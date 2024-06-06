@@ -1,4 +1,4 @@
-package com.ey.day8.Q1;
+package com.ey.day7.Q1;
 
 public class CopyFiles {
 	public static void main(String[] args) {
