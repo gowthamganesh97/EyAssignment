@@ -1,4 +1,4 @@
-package com.ey.day8.Q2;
+package com.ey.day7.Q2;
 class ConferenceRoom {
     private boolean isAvailable = true;
 
