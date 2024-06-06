@@ -1,4 +1,4 @@
-package com.ey.day8.Q3;
+package com.ey.day7.Q3;
 
 import java.util.*;
 
