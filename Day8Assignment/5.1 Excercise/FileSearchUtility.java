@@ -27,10 +27,9 @@ public class FileSearchUtility {
     }
 
     public static void main(String[] args) {
-        String directoryPath = "D:\\"; // Change this to the directory you want to search
-        String fileName = "Readme.txt"; // Change this to the file name you want to search for
+        String directoryPath = "D:\\"; 
+        String fileName = "Readme.txt"; 
 
-        // Call the searchFile method with the input directory path and file name
         searchFile(directoryPath, fileName);
     }
 }
